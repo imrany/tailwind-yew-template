@@ -9,5 +9,10 @@
     "dev:serve": "trunk serve",
     "prod": "npm run prod:css && trunk build --release",
     "prod:css": "tailwindcss -c tailwind.config.js -o tailwind.css --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
